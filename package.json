@@ -1,0 +1,20 @@
+{
+  "name": "aptasahq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "postcss": "^8.4.5",
+    "sass": "^1.49.7",
+    "tailwindcss": "^3.0.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles/2021-2022/styles.css -o ./dist/styles/2021-2022/styles.css --watch --minify",
+    "compile-sass":"sass src/scss:dist/styles/2021-2022"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

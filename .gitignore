@@ -1,0 +1,8 @@
+node_modules/
+src/
+.vscode/
+
+packege-lock.json
+packege.json
+tailwind.config.js
+
